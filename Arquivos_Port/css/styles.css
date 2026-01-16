@@ -1,0 +1,37 @@
+/* Reset */
+* {
+padding: 0;
+margin: 0;
+font-family: 'robot', sans-seraf;
+box-sizing: border-box;
+}
+/* variable */
+:root {
+--main-color: #548689;
+--main-text-color: #fff;
+--border-color: #999;
+--bio-border-color: #1E2A3A;
+--abaut-big-color: #548689;
+}
+
+/* General */
+
+.haghlght {
+  color: var(--main-color);
+}
+
+#container {
+display: flex;
+flex-direction: row;
+color: var(--main-text-color)
+}
+
+
+#bip-container {
+flex: 1 1 20%;
+min-height: 100vw;
+background-color: var(--bio-border-color);
+text-align: center;
+padding: 30px 12px;
+border-right: 5px solid var(--bio-border-color);
+}
