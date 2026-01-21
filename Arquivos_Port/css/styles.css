@@ -8,11 +8,11 @@ box-sizing: border-box;
 /* variable */
 :root {
 --main-color: #548689;
---main-text-color: #fff;
+--main-text-color: #FFF;
 --border-color: #999;
 --bio-border-color: #1E2A3A;
---bio-big-color: #1E2A3A;
---abaut-big-color: #548689;
+--bio-bg-color: #293544;
+--about-bg-color: #111821;
 }
 
 /* General */
