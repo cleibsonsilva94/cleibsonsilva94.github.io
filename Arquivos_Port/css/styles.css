@@ -144,3 +144,7 @@ display: flex;
 font-size: 20px;
 max-width: 20px
 }
+
+#btn-projects:hover {
+ background-color: transparent;
+}
