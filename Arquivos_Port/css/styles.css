@@ -67,7 +67,7 @@ margin-bottom: 25px;
   display: flex;
   justify-content: center;
   list-style: none;
-  border-bottom: 1px solid var(--bio-border-color);
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 25px;
   padding-bottom: 25px;
 }
@@ -75,6 +75,11 @@ margin-bottom: 25px;
 #Social-container li {
   flex: 1 1 0;
   max-width: 60px;
+}
+
+#Social-container li a {
+  color: var(--main-color);
+  max-width: 30px;
 }
 
 #email-container {
