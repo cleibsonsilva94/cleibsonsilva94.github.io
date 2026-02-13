@@ -1,18 +1,19 @@
 /* Reset */
 * {
-padding: 0;
-margin: 0;
-font-family: 'robot', sans-serif;
-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'robot', sans-serif;
+  box-sizing: border-box;
 }
+
 /* variable */
 :root {
---main-color: #548689;
---main-text-color: #FFF;
---border-color: #999;
---bio-border-color: #1E2A3A;
---bio-bg-color: #293544;
---about-bg-color: #111821;
+  --main-color: #548689;
+  --main-text-color: #FFF;
+  --border-color: #999;
+  --bio-border-color: #1E2A3A;
+  --bio-bg-color: #293544;
+  --about-bg-color: #111821;
 }
 
 /* General */
@@ -22,19 +23,19 @@ box-sizing: border-box;
 }
 
 #container {
-display: flex;
-flex-direction: row;
-color: var(--main-text-color)
+  display: flex;
+  flex-direction: row;
+  color: var(--main-text-color)
 }
 
 
 #bio-container {
-flex: 1 1 20%;
-min-height: 100vh;
-background-color: var(--bio-bg-color);
-text-align: center;
-padding: 30px 12px;
-border-right: 5px solid var(--bio-border-color);
+  flex: 1 1 20%;
+  min-height: 100vh;
+  background-color: var(--bio-bg-color);
+  text-align: center;
+  padding: 30px 12px;
+  border-right: 5px solid var(--bio-border-color);
 }
 
 #about-container {
@@ -57,10 +58,10 @@ border-right: 5px solid var(--bio-border-color);
 }
 
 #bio-img {
-width: 175px;
-height: 180px;
-border-radius: 70%;
-margin-bottom: 25px;
+  width: 175px;
+  height: 180px;
+  border-radius: 70%;
+  margin-bottom: 25px;
 }
 
 #Social-container {
@@ -125,19 +126,19 @@ margin-bottom: 25px;
 }
 
 #btn-projects {
-font-weight: bold;
-font-size: 16px;
-color: var(--main-text-color);
-background-color: var(--main-color);
-border: 2px solid var(--main-color);
-border-radius: 5px;
-text-decoration: none;
-transition: .5s;
-margin: 25px 0;
-padding: 12px 10px;
-width: 150px;
-text-align: center;
-display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: .5s;
+  margin: 25px 0;
+  padding: 12px 10px;
+  width: 150px;
+  text-align: center;
+  display: flex;
 }
 
 #btn-projects ion-icon,
@@ -146,12 +147,12 @@ display: flex;
 }
 
 #btn-projects ion-icon {
-font-size: 20px;
-max-width: 20px
+  font-size: 20px;
+  max-width: 20px
 }
 
 #btn-projects:hover {
- background-color: transparent;
+  background-color: transparent;
 }
 
 #skills-section-title {
@@ -161,79 +162,79 @@ max-width: 20px
 }
 
 .skills-container {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
 }
 
 .skills-box {
- flex: 1 1 33%;
- max-width: 33%;
+  flex: 1 1 33%;
+  max-width: 33%;
   margin-bottom: 35px;
 }
 
 .skills-title {
- font-size: 24px;
- margin-bottom: 25px;
- font-weight: bold;
- padding-left: 10px;
- border-left: 5px solid var(--main-color);
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid var(--main-color);
 }
 
 .skills-box i {
-font-size: 45px;
-max-width: 10px;
+  font-size: 45px;
+  max-width: 10px;
 }
 
 /* Mobile */
 
 @media(max-width: 450px) {
 
-#container {
-  flex-direction: column;
-}
+  #container {
+    flex-direction: column;
+  }
 
-#bio-container {
-  min-height: auto;
-  border-right: none;
-  border-right: 5px solid var(--bio-border-color);
-}
+  #bio-container {
+    min-height: auto;
+    border-right: none;
+    border-right: 5px solid var(--bio-border-color);
+  }
 
-#bio-container h2 {
-  display: none;
-}
+  #bio-container h2 {
+    display: none;
+  }
 
-#about-container p {
-  max-width: 60px;
-  margin: 10px auto;
-}
+  #about-container p {
+    max-width: 60px;
+    margin: 10px auto;
+  }
 
-#about-container p {
-  text-align: center;
-  padding: 30px;
-}
+  #about-container p {
+    text-align: center;
+    padding: 30px;
+  }
 
-#bio-container .description {
- margin: 10px;
- max-width: 100%;
- line-height: 26px;
-}
+  #bio-container .description {
+    margin: 10px;
+    max-width: 100%;
+    line-height: 26px;
+  }
 
-#btn-projects {
- margin: 20px auto;
- 
-}
+  #btn-projects {
+    margin: 20px auto;
 
-#skills-box {
- flex: 1 1 100%;
- max-width: 100%;
- margin-bottom: 40px;
- text-align: left;
-}
+  }
 
-.skills-box {
-font-size: 60px;
-}
+  #skills-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .skills-box {
+    font-size: 60px;
+  }
 
 
 }
